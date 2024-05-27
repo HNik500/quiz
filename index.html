@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="index.js" onsubmit="return validateForm(event)">
+        <h1>Question 1</h1>
+    <input type="radio" id="Q1O1" name="options" value="option 1">
+    <label for="Q1O1">Option 1</label> <br>
+
+    <input type="radio" id="Q1O2" name="options" value="option 2">
+    <label for="Q1O2">Option 2</label> <br>
+
+    <input type="radio" id="Q1O3" name="options" value="option 3">
+    <label for="Q1O3">Option 3</label> <br>
+
+    <input type="radio" id="Q1O4" name="options" value="option 4"> <!-- id and for should be the same-->
+    <label for="Q1O4">Option 4</label> <br>
+
+    <h1>Question 2</h1>
+    <input type="radio" id="Q2O1" name="options1" value="option 1">
+    <label for="Q2O1">Option 1</label> <br>
+
+    <input type="radio" id="Q2O2" name="options1" value="option 2">
+    <label for="Q2O2">Option 2</label> <br>
+
+    <input type="radio" id="Q2O3" name="options1" value="option 3">
+    <label for="Q2O3">Option 3</label> <br>
+
+    <input type="radio" id="Q2O4" name="options1" value="option 4">
+    <label for="Q2O4">Option 4</label> <br>
+    <button type="submit">SUBMIT</button>
+    </form>
+</body>
+<script src="./index.js"></script>
+</html>
